@@ -1,0 +1,27 @@
+{
+  "name": "scala",
+  "argv": [
+    "C:\\ProgramData\\chocolatey\\lib\\scala\\tools\\scala\\3.6.4\\scala3-3.6.4-x86_64-pc-win32\\libexec\\scala-cli.exe",
+    "--cli-default-scala-version",
+    "3.6.4",
+    "--repository",
+    "file:///C:/ProgramData/chocolatey/lib/scala/tools/scala/3.6.4/scala3-3.6.4-x86_64-pc-win32/maven2",
+    "--prog-name",
+    "scala",
+    "--skip-cli-updates",
+    "bsp",
+    "--json-options",
+    "c:\\Users\\HP\\Documents\\TasteBud\\scala3proj\\src\\main\\scala\\chatbot\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "c:\\Users\\HP\\Documents\\TasteBud\\scala3proj\\src\\main\\scala\\chatbot\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "c:\\Users\\HP\\Documents\\TasteBud\\scala3proj\\src\\main\\scala\\chatbot\\.scala-build\\ide-envs.json",
+    "c:\\Users\\HP\\Documents\\TasteBud\\scala3proj\\src\\main\\scala\\chatbot\\Chatbot.scala"
+  ],
+  "version": "1.5.4",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

@@ -1,0 +1,54 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Users\HP\Documents\TasteBud\scala3proj\src\main\scala\chatbot\Chatbot.scala:90:31 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m    [33mcase[0m [31m"quiz"[0m => iwantquiz().getOrElse([31m"Sorry, the quiz could not start."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                   ^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                   value getOrElse is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\HP\Documents\TasteBud\scala3proj\src\main\scala\chatbot\quiz.scala:228:5 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m228 |[0m Some([31ms"\nYou scored [0m$score[31m out of 5."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Found:    [1m[31mSome[0m[1m[31m[[0mString[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\HP\Documents\TasteBud\scala3proj\src\main\scala\chatbot\quiz.scala:575:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m575 |[0m    result = japaneseQuiz()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m             ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m             Found:    [1m[31mOption[0m[1m[31m[[0mString[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m             Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\HP\Documents\TasteBud\scala3proj\src\main\scala\chatbot\quiz.scala:579:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m579 |[0m    result = indianQuiz()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m             ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m             Found:    [1m[31mOption[0m[1m[31m[[0mString[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m             Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\HP\Documents\TasteBud\scala3proj\src\main\scala\chatbot\quiz.scala:583:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m583 |[0m    result = americanQuiz()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m             ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m             Found:    [1m[31mOption[0m[1m[31m[[0mString[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m             Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\HP\Documents\TasteBud\scala3proj\src\main\scala\chatbot\quiz.scala:596:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m596 |[0m    japaneseQuiz()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Found:    [1m[31mOption[0m[1m[31m[[0mString[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\HP\Documents\TasteBud\scala3proj\src\main\scala\chatbot\quiz.scala:598:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m598 |[0m    indianQuiz()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Found:    [1m[31mOption[0m[1m[31m[[0mString[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\HP\Documents\TasteBud\scala3proj\src\main\scala\chatbot\quiz.scala:600:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m600 |[0m    americanQuiz()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Found:    [1m[31mOption[0m[1m[31m[[0mString[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
